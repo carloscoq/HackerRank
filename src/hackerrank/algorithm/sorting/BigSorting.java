@@ -17,7 +17,7 @@ public class BigSorting {
 	            unsorted[unsorted_i] = in.next();
 	        }
 	        
-	        BigDecimal base = BigDecimal. Integer.parseInt(unsorted[0]);
+	        Integer base = Integer.parseInt(unsorted[0]);
 	        Integer temp = 1;
 	        
 	        for(int i = 0; i < unsorted.length; i++){
